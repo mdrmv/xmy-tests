@@ -5,5 +5,8 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Print to console
-        run: echo Hello GH
-        
+        run: echo Hello GH!
+      - name: Print a new lines
+        run: |
+          echo First line!
+          echo Second Line!
